@@ -5,7 +5,7 @@ class Student() {
     float rno;
     float cgpa;
 
-}
+};
 int main() {
     Student s;
     s.name = 'gyan';
