@@ -21,7 +21,7 @@ int main() {
     c2.seat = 4;
     c2.type = "JEEP";
 
-    cout<<c1.name<<" "<<c1.type<<" "<<c1.price<<" "<<endl;
-    cout<<c2.name<<" "<<c2.type<<" "<<c2.price<<" "<<endl;
+    cout<<c1.name<<" "<<c1.type<<" "<<c1.price<<" "<<c1.seat<<" "<<endl;
+    cout<<c2.name<<" "<<c2.type<<" "<<c2.price<<" "<<c2.seat<<" "<<endl;
 
 }
