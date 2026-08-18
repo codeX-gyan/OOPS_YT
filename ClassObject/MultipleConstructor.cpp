@@ -46,12 +46,19 @@ int main() {
 
     Student s4( 33 , "gaurav");
 
+    Student s5 = s1;   //deep copy qki agar hum iske andr ke kisi attribute ke sth kuch bhi change kre toh ye seh leta hai
+    s5.name = "garry";
+
+    Student s6(s1);
+    s6.rno = 74;     // copy constructor
+
 
     cout<<s1.name<<" "<<s1.cgpa<<" "<<s1.rno<<" "<<s1.bc<<" "<<endl;
     cout<<s2.name<<" "<<s2.cgpa<<" "<<s2.rno<<" "<<endl;
     cout<<s3.rno<<" "<<endl;
     cout<<s4.name<<" "<<s4.rno<<endl;
-
+    cout<<s5.name<<" "<<s5.cgpa<<" "<<s5.rno<<" "<<s5.bc<<" "<<endl;
+    cout<<s6.name<<" "<<s6.cgpa<<" "<<s6.rno<<" "<<endl;
 }
 
 
