@@ -53,3 +53,8 @@ int main() {
     cout<<s4.name<<" "<<s4.rno<<endl;
 
 }
+
+
+
+
+//JIS STRUCTURE ME CONSTRUCTOR BANA RHE HO USSI STRUCTURE ME FILL BHI KRNA HOTA HAI 
