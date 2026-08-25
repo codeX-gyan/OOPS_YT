@@ -8,4 +8,6 @@ int main() {
     int* p = &x;          // p me x ki address store hogyi
     cout<<p<<endl;        // p ke ander jo address store hui thi wo adrs print hogi
     cout<<*p<<endl;       // p ke andr wali adrs ki value print hogi i.e X ki val
+    *p = 8;               // changing the value of x using pointers
+    cout<<x<<endl;
 }
