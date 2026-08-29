@@ -52,7 +52,7 @@ public:
         this->runs = runs;
     }
     void change(Cricketer c){
-        c->runs= 19000;
+        c.runs= 19000;                     
     }
 };
 int main(){
@@ -61,4 +61,6 @@ int main(){
 
     cout<<c1.name<<" "<<c1.runs<<endl;
     cout<<c2.name<<" "<<c2.runs<<endl;
+    return 0;
 }
+
